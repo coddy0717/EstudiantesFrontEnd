@@ -200,7 +200,7 @@ const Header = () => {
                       </Link>
 
                       <Link
-                        href="/"
+                        href="/Perfil"
                         className="flex items-center space-x-3 px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 transition-colors"
                         onClick={() => setIsProfileOpen(false)}
                       >

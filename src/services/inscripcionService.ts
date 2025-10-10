@@ -43,4 +43,10 @@ export const inscripcionService = {
     const response = await api.get('/mis-inscripciones/');
     return response.data;
   },
+
+  // NUEVO: Obtener detalle de inscripción específica
+  getInscripcionDetalle: async (idInscripcion: number): Promise<Inscripcion> => {
+    const response = await api.get(`/inscripcion-detalle/${idInscripcion}/`);
+    return response.data;
+  },
 };

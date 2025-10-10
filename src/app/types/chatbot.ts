@@ -25,9 +25,6 @@ export interface Enrollment {
     id_Paralelo?: number;
     materia?: {
       nombre: string;
-      nivel?: {
-        numero_nivel?: number;
-      };
     };
     numero_paralelo?: string;
     aula?: string;

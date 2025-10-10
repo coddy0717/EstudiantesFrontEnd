@@ -310,7 +310,9 @@ export default function ChatbotPage() {
                     <div className={`max-w-[75%] ${message.isUser ? 'text-right' : 'text-left'}`}>
                       <div className={`inline-block px-6 py-4 rounded-2xl shadow-lg ${
                         message.isUser
+                        //color del mensaje del usuario
                           ? 'bg-gradient-to-br from-indigo-600 to-purple-600 text-white rounded-tr-sm'
+                          //color del mensaje del chabot
                           : 'bg-gradient-to-br from-slate-800 via-slate-700 to-slate-900 text-white rounded-tl-sm'
                       }`}>
                         {message.imageUrl && (

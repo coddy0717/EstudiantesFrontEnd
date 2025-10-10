@@ -9,7 +9,7 @@ export interface Estudiante {
 }
 
 export interface Carrera {
-  id?: number;
+  id?: number
   nombre: string;
   duracion_semestre?: number;
   estado: boolean;
